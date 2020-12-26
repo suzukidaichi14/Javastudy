@@ -61,12 +61,12 @@ public class Ifstudy {
 			System.out.println("³‚Ì‹ô”");
 		}
 //		‰Û‘è3
-		double weight=40;
+		double weight=100;
 		double height=1.8;
 		double bmi=weight/height/height;
 		if (bmi>25) {
 			System.out.println("”ì–");
-		}else if ((bmi<=25)&&(bmi>=18.5)){
+		}else if (bmi>=18.5){
 			System.out.println("•W€");
 		}else if (bmi<18.5) {
 			System.out.println("’á‘Ìd");
