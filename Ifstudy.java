@@ -28,15 +28,15 @@ public class Ifstudy {
 			System.out.println("40‘ãˆÈã");
 		}
 //       ‰Û‘è1
-		int a=100;
-		int b=39;
+		int a=90;
+		int b=40;
 		if((a+b)>=160) {
 			System.out.println("g—Dh");
 		}else if (a<40|| b<40) {
 			System.out.println("’Ç");
-		}else if(((a+b)>=140) && ((a+b)<=159)){
+		}else if((a+b)>=140){
 			System.out.println("g—Çh");
-		}else if (((a+b)>=100) && ((a+b)<=139)) {
+		}else if ((a+b)>=100){
 			System.out.println("g‰Âh");
 		}else if ((a+b)<100) {
 			System.out.println("’Ç");
