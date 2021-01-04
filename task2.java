@@ -25,7 +25,7 @@ public class task2 {
 				  System.out.println("外れ");
 			  }
 		  }else if(d==2) {
-			  if(a>11) {
+			  if(a<11) {
 				  System.out.println("正解");
 			  }else {
 				  System.out.println("外れ");

@@ -27,56 +27,23 @@ public class task4 {
 			
 		 int d= s.nextInt();
 		cpuhund = random.nextInt(3)+1;
-		if(d==1 && cpuhund==d) {
-			System.out.println("結果はあいこです");
-			System.out.print("あいこでしょ>");
-			
-		}else if (d==1 &&cpuhund==2) {
-			System.out.println("結果は勝ちです");
-			
-			win++;
-			
-			
-		}else if (d==1 &&cpuhund==3) {
-			System.out.println("結果は負けです");
-			
-			lose++;
-			
-		}
-		if(d==2 && cpuhund==d) {
-			System.out.println("結果はあいこです");
-			System.out.print("あいこでしょ>");
-		 }else if(d==2 && cpuhund==1){
-			 System.out.println("結果は負けです");
-			 
-			 lose++;
-			 
-		 }else if(d==2 && cpuhund==3) {
-			 System.out.println("結果は勝ちです");
-			 
-			 win++;
-			 
-		 }
-		 if(d==3&&cpuhund==d) {	 
+		
+		
+		 if(cpuhund==d) {
 			 System.out.println("結果はあいこです");
-			 System.out.print("あいこでしょ>");
-		 }else if(d==3&&cpuhund==1) {
-			 System.out.println("結果は勝ちです");
-			
-			 win++;
-			 
-		 }else if (d==3&&cpuhund==2) {
+				System.out.print("あいこでしょ>");
+		 } 
+		 if((d==1 &&cpuhund==2) || (d==2 && cpuhund==3)|| (d==3&&cpuhund==1)) {
+				System.out.println("結果は勝ちです");
+				win++;
+		 }
+		 if((d==1 &&cpuhund==3)||(d==2 && cpuhund==1)||(d==3&&cpuhund==2)) {
 			 System.out.println("結果は負けです");
-			 
-			 lose++;
-			 
+              lose++;
 		 }
 		 if(win<3&&lose<3 && !(d==cpuhund)) { 
 			 System.out.print("最初はグー、じゃんけんポン>");
-			 }
-		 
-		 
-		 
+		 }
 		 
 		 
 		 if(win==3) {
